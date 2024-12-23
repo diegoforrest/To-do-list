@@ -1,0 +1,156 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #a8edea, #fed6e3);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.app-container {
+  max-width: 600px; 
+  width: 100%;
+  padding: 50px; 
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2em;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.app-subtitle {
+  text-align: center;
+  color: #777;
+  margin-top: 5px; 
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-input {
+  margin-top: 15px;
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  margin-right: 5px;
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.timer-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  font-size: 0.8em;
+  font-family: 'Digital', sans-serif;
+  color: black;
+  background-color: #f9f9f9;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.add-button {
+  margin-top: 28px;
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  font-size: 0.8em;
+  background-color: #4caf50;
+  color: #fff;
+  border: 2px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  margin-bottom: 1px;
+  position: relative;
+}
+
+.timer-container {
+  text-align: left;
+}
+
+.timer-display {
+  font-size: 14px;
+  color: #ff5722;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.timer-display .material-icons {
+  margin-right: 2px;
+  font-size: 10px;
+}
+
+.todo-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.todo-text {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #999999;
+}
+
+.delete-button {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #e60023;
+}
